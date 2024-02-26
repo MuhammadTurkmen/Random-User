@@ -1,1 +1,1 @@
-const URL = 'https://randomuser.me/api/'       
+const URL = 'https://randomuser.me/api/'        
