@@ -20,9 +20,9 @@ const getUser = async () => {
     const {dob:{age}} = person
     const {street: {number, name}} = person.location
     return {
+        image, 
         phone,
         email,
-        image, 
         password, 
         age,
         street: `${number} ${name}`,
@@ -33,7 +33,7 @@ const getUser = async () => {
 
 const showUser = () => {
     // get user from api
-    getUser()
+    getUser().then(data => console.log(data))
     // display user
 }
 
