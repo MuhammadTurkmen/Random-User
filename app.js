@@ -12,6 +12,7 @@ const getUser = async () => {
     const response = await fetch(URL)
     const data = await response.json()
     // destructure
+    const person = data.results[0]
 }
 
 
