@@ -9,7 +9,7 @@ const btn = get('.btn')
 const btns = [...document.querySelectorAll('.icon')]
 
 const getUser = async () => {
-
+    const response = await
 }
 
 
