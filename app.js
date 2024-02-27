@@ -17,7 +17,7 @@ const displayUser = (person) => {
 
     }) 
 }
-
+ 
 
 const showUser = async () => {
     // get user from api
