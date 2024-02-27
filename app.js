@@ -10,6 +10,7 @@ const btns = [...document.querySelectorAll('.icon')]
 
 const displayUser = (person) => {
       img.src = person.image
+      value.textContent = person.name
 }
 
 
