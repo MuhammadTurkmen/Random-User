@@ -22,3 +22,5 @@ const getUser = async () => {
         name: `${first} ${last}`
     }
 }
+
+export default getUser
