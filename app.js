@@ -1,4 +1,4 @@
-
+import get from "./utils/getElement"
 
 const URL = 'https://randomuser.me/api/' 
 
