@@ -33,7 +33,7 @@ const getUser = async () => {
 
 const showUser = () => {
     // get user from api
-    getUser().then(data => console.log(data))
+    getUser()
     // display user
 }
 
