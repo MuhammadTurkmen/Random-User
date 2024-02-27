@@ -8,8 +8,8 @@ const btn = get('.btn')
 const btns = [...document.querySelectorAll('.icon')]
 
 
-const displayUser = () => {
-      
+const displayUser = (person) => {
+      img.src = person.image
 }
 
 
