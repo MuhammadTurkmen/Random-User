@@ -1,5 +1,5 @@
 import get from "./utils/getElement"
-
+import getUser from "./utils/fetchUser"
 
 const img = get('.user-img')
 const title = get('.user-title')
