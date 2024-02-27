@@ -31,7 +31,7 @@ const getUser = async () => {
 }
 
 
-const showUser = () => {
+const showUser = async () => {
     // get user from api
     getUser()
     // display user
