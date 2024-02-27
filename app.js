@@ -16,6 +16,7 @@ const getUser = async () => {
     const {phone, email} = person
     const {large: image} = person.picture
     const {password} = person.login
+    const {first, last} = person.name
 }
 
 
