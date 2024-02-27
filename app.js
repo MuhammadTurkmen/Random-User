@@ -25,7 +25,8 @@ const getUser = async () => {
         image, 
         password, 
         age,
-        street: `${number}${name}`
+        street: `${number} ${name}`,
+        name: `${first} ${last}`
     }
 }
 
