@@ -9,7 +9,7 @@ const btn = get('.btn')
 const btns = [...document.querySelectorAll('.icon')]
 
 const showUser = () => {
-
+    // get user from api
 }
 
 window.addEventListener('DOMContentLoaded', showUser)
