@@ -10,6 +10,7 @@ const btns = [...document.querySelectorAll('.icon')]
 
 const getUser = async () => {
     const response = await fetch(URL)
+    console.log(response);
 }
 
 
