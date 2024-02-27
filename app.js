@@ -11,7 +11,7 @@ const btns = [...document.querySelectorAll('.icon')]
 const getUser = async () => {
     const response = await fetch(URL)
     const data = await response.json()
-    console.log(response);
+    // destructure
 }
 
 
