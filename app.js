@@ -14,6 +14,7 @@ const getUser = async () => {
     // destructure
     const person = data.results[0]
     const {phone, email} = person
+    const {large} = person.picture
 }
 
 
