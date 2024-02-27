@@ -9,5 +9,8 @@ const btn = get('.btn')
 const btns = [...document.querySelectorAll('.icon')]
 
 const showUser = () => {
-    
+
 }
+
+window.addEventListener('DOMContentLoaded', showUser)
+window.addEventListener('DOMContentLoaded', showUser)
