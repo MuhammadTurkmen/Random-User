@@ -8,6 +8,11 @@ const value = get('.user-value')
 const btn = get('.btn')
 const btns = [...document.querySelectorAll('.icon')]
 
+const getUser = async () => {
+
+}
+
+
 const showUser = () => {
     // get user from api
     // display user
