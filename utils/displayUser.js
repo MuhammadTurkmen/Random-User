@@ -20,9 +20,7 @@ const displayUser = (person) => {
         btn.addEventListener('click', () => {
             title.textContent = `My ${label} is`
             value.textContent = person[label]
-            btns.forEach((btn) => {
-                btn.classList.remove('active')
-            })
+            removeActive(btns)
             btn.classList.add('active')
         })
     })  
