@@ -29,4 +29,8 @@ const displayUser = (person) => {
     })  
 } 
 
+function removeActive() {
+    
+}
+
 export default displayUser
