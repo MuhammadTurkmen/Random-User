@@ -1,3 +1,7 @@
+const img = get('.user-img')
+const title = get('.user-title')
+const value = get('.user-value')
+
 const displayUser = (person) => {
     img.src = person.image
     value.textContent = person.name
