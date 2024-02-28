@@ -1,3 +1,4 @@
+import getUser from './fetchUser'
 import get from './getElement.js'
 
 const img = get('.user-img')
@@ -27,3 +28,5 @@ const displayUser = (person) => {
         })
     })  
 } 
+
+export default displayUser
