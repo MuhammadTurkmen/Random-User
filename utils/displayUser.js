@@ -27,8 +27,8 @@ const displayUser = (person) => {
     })  
 } 
 
-function removeActive() {
-    btns.forEach((btn) => {
+function removeActive(items) {
+    items.forEach((btn) => {
         btn.classList.remove('active')
     })
 }
