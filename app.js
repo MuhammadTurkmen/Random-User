@@ -16,7 +16,7 @@ const displayUser = (person) => {
     btns.forEach((btn) => {
         const label = btn.dataset.label
         btn.addEventListener('click', () => {
-            
+            title.textContent = `My ${label} is`
         })
     })  
 } 
