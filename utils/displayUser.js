@@ -1,4 +1,4 @@
-import getUser from './fetchUser'
+import getUser from './fetchUser.js'
 import get from './getElement.js'
 
 const img = get('.user-img')
