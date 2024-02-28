@@ -12,6 +12,7 @@ const displayUser = (person) => {
     value.textContent = person.name
     title.textContent = `My name is`
     
+    removeActive(btns)
 
     btns[0].classList.add('active')
     btns.forEach((btn) => {
