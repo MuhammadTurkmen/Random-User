@@ -11,9 +11,7 @@ const displayUser = (person) => {
     img.src = person.image
     value.textContent = person.name
     title.textContent = `My name is`
-    btns.forEach((btn) => {
-        btn.classList.remove('active')
-    })
+    
 
     btns[0].classList.add('active')
     btns.forEach((btn) => {
@@ -30,7 +28,9 @@ const displayUser = (person) => {
 } 
 
 function removeActive() {
-    
+    btns.forEach((btn) => {
+        btn.classList.remove('active')
+    })
 }
 
 export default displayUser
